@@ -1,7 +1,11 @@
 /*TABLET*/
 
 @media screen and (max-width: 768px) {
-    * { background-color: black; }
+    
+    .container {
+        width: 768px;
+    }
+
 }
 
 
@@ -9,5 +13,36 @@
 /*MOBILE*/
 
 @media screen and (max-width: 480px) {
-    * { background-color: white; }
+
+    .container {
+        width: 480px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    /* LESSONS SECTION */
+    .lessons .col {
+        width: 100%;
+    }
+
+    /* STEPS SECTION */
+    .steps .col {
+        width: 100%;
+    }
+
+    /* WHY US SECTION */
+    .why-us {
+        background-color: #222222;
+    }
+    
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+
 }
