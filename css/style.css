@@ -119,9 +119,9 @@ img {
     width: 60%;
 }
 
-.why-us li {
-    list-style: none;
-    margin-bottom: 2.5rem;
+.why-us {
+    margin-bottom: 0;
+    padding-bottom: 3rem;
 }
 
 /************************************************
