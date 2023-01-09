@@ -61,4 +61,8 @@
     .steps {
         margin-bottom: 0;
     }
+
+    .why-us .col img {
+        margin-bottom: 4rem;
+    }
 }
